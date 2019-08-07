@@ -6,3 +6,9 @@ registry
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System] LocalAccountTokenFilterPolicy.
 ```
+
+## Debugging
+```powershell
+import-module PSDiagnostics
+Enable-PSWSManCombinedTrace
+```
